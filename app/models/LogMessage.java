@@ -10,14 +10,4 @@ public class LogMessage {
         this.message = message;
         this.level = level;
     }
-//
-//    @JsonProperty("message")
-//    public String getMessage() {
-//        return message;
-//    }
-//
-//    @JsonProperty("level")
-//    public String getLevel() {
-//        return level;
-//    }
 }

@@ -32,10 +32,10 @@ angular.module('log.controllers', [])
             $scope.$apply()
         }
 
-        var wsUrl = $("body").data("ws-url")
-        var logStream = new WebSocket(wsUrl)
-
-        logStream.onmessage = function(event) {
-            handleEvent(event)
-        }
+        //var wsUrl = $("body").data("ws-url")
+        //var logStream = new WebSocket(wsUrl)
+        //
+        //logStream.onmessage = function(event) {
+        //    handleEvent(event)
+        //}
     })
