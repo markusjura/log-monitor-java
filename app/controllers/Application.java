@@ -16,8 +16,6 @@ public class Application extends Controller {
         return ok(index.render());
     }
 
-
-
     public WebSocket<JsonNode> streamLogs() {
         return WebSocket.whenReady((in, out) -> {
 
